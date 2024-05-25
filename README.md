@@ -1,6 +1,6 @@
 # BG_term_project
 Bu belgede, sağlanan WebGL kodunun detaylı bir açıklaması yer almaktadır. Kod, WebGL kullanarak HTML tuvali üzerinde 'R', 'Ü', 'V', 'E', 'Y', 'D' ve 'A' harflerini çizmeyi amaçlamaktadır. Her harf, farklı renkler ve köşe noktaları kullanılarak temsil edilmiştir.
-HTML Kodu
+#HTML Kodu
 HTML dosyası, WebGL içeriğinin çizileceği temel bir yapı oluşturur. İçerisinde, WebGL içeriğinin çizileceği bir tuval elementi ve WebGL kodunu içeren 'main.js' dosyasına referans bulunmaktadır.
 Fonksiyon: startWebGL()
 Bu fonksiyon, WebGL bağlamını başlatır. Tuval elementinden WebGL render bağlamı almaya çalışır. Eğer tarayıcı WebGL'i desteklemiyorsa, 'experimental-webgl' bağlamını kullanmaya çalışır. Eğer bu da başarısız olursa, bir uyarı mesajı gösterir.
